@@ -4,10 +4,10 @@ import { useState, useEffect, useRef } from "react"
 import { motion, useInView } from "framer-motion"
 
 const stats = [
-  { id: 1, value: 3, label: "Years Experience", suffix: "+" },
+  { id: 1, value: 7, label: "Years Experience", suffix: "+" },
   { id: 2, value: 100, label: "Happy Clients", suffix: "+" },
   { id: 3, value: 500, label: "Products Delivered", suffix: "+" },
-  { id: 4, value: 15, label: "Team Members", suffix: "+" },
+  { id: 4, value: 30, label: "Team Members", suffix: "+" },
 ]
 
 export function StatsCounter() {
